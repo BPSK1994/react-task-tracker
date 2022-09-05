@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    
+    background-color: #dde1e7;
+    font-family: poppins;
+}
+
+.noReminder {
+    background-color: grey;
+}
+
+.reminder {
+    background-color: green;
+}
+
+.container {
+    max-width: 500px;
+    min-height: 300px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #dde1e7;
+    border-radius: 5px;
+    box-shadow: -3px -3px 7px rgba(255,255,255,0.73), inset 3px 3px 5px rgba(94,104,121,0.288),
+    inset -3px -3px 7px rgba(255,255,255,0.73), 3px 3px 5px rgba(94,104,121,0.3);
+    border: 8px solid #dde1e7;
+}
+
+
+
+.header__title {
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.header {
+    margin-bottom: 24px;
+}
+
+.header--flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__btn {
+    padding: 5px;
+    color: #FFF;
+    border: transparent;
+    border-radius: 5px;
+    width: 60px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: #000;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.buttonReminder {
+    width: 20px;
+    height: 61px;
+    border-radius: 5px;
+    border-color: transparent;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+
+/* Tasks */
+
+.task {
+    margin: 10px 0px;
+    background: #f4f4f4;
+}
+
+
+.task--flex {
+    display: flex;
+    align-items: center;
+}
+
+
+.task__content {
+    padding: 10px 20px;
+    border-radius: 0px 5px 5px 0px;
+    cursor: pointer;
+    font-size: 12px;
+    flex: 1;
+}
+
+
+.task__heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.task__heading i {
+    color: red;
+    font-size: 14px;
+    cursor: pointer;
+    
+}
+
+
+/* Form */
+
+.form {
+    font-size: 14px;
+}
+
+.form-control {
+    margin: 15px 0px 0px 0px;
+    width: 100%;
+}
+
+
+.form-control label {
+    display: block;
+}
+
+.form-control input {
+    width: 100%;
+    border-radius: 5px;
+    border: transparent;
+    margin: 5px 0px;
+    padding: 8px;
+    background-color: #dde1e7;
+    box-shadow: inset 3px 3px 5px rgba(94,104,121,0.288), inset -3px -3px 7px rgba(255,255,255,0.73);
+}
+
+
+
+.form-control-check {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px 0px 0px 0px;
+}
+
+
+.form-control-check label {
+    display: block;
+    margin: 5px 0px;
+}
+
+.form-control-check input {
+    border-radius: 5px;
+}
+
+
+.submitBtn {
+    width: 100%;
+    margin: 14px 0px;
+    background: #000;
+    color: #FFF;
+    border: none;
+    border-radius: 5px;
+    height: 34px; 
+    padding: 8px;
+    cursor: pointer;
+}

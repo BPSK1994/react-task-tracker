@@ -54,7 +54,6 @@ const App = function() {
     }
 
 
-
     // Delete task 
 
     const deleteTask = function(id) {
